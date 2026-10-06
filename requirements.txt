@@ -1,0 +1,16 @@
+# --- データ処理・集計 ---
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1        # xlsx読み書き
+
+# --- 可視化・図表作成 ---
+matplotlib>=3.7
+
+# --- Word/Excel 自動操作(OLEリンク更新・診断・クリーンアップ) ---
+pywin32>=306          # win32com。Windows環境専用
+
+# --- PCA・クラスタリング(次の分析フェーズ用) ---
+scikit-learn>=1.3
+
+# --- ネットワーク分析(次の分析フェーズ用) ---
+networkx>=3.1
